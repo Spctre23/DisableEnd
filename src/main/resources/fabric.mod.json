@@ -1,0 +1,31 @@
+{
+	"schemaVersion": 1,
+	"id": "disableend",
+	"version": "${version}",
+	"name": "DisableEnd",
+	"description": "Disables ability to light the end portal. Toggleable via commands.",
+	"authors": [
+		"Spctre"
+	],
+	"contact": {
+		"homepage": "https://github.com/Spctre23/DisableEnd",
+		"sources": "https://github.com/Spctre23/DisableEnd"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/disableend/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"disableend.DisableEnd"
+		]
+	},
+	"mixins": [
+		"disableend.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.19.3",
+		"minecraft": "~26.2",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}
